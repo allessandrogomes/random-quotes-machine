@@ -1,0 +1,60 @@
+body {
+    background-color: var(--primary-color);
+    font-family: "Roboto", sans-serif;
+}
+
+.app {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box {
+    min-height: 250px;
+    width: 450px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#text {
+    margin: 0;
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: 200;
+}
+
+#author {
+    align-self: end;
+    color: var(--primary-color);
+}
+
+#tweet-quote {
+    background-color: var(--primary-color);
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#new-quote {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#btn-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
