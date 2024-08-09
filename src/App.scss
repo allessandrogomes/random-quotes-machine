@@ -9,6 +9,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
 }
 
 #quote-box {
@@ -16,10 +23,20 @@ body {
     width: 450px;
     background-color: white;
     border-radius: 5px;
-    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+        width: 85%;
+    }
+}
+
+#group-box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 25px;
 }
 
 #text {
@@ -57,4 +74,10 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+#by-text {
+    color: white;
+    text-decoration: none;
+    margin: 20px 0;
 }
